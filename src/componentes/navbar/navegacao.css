@@ -1,0 +1,13 @@
+.linksbrand {
+    text-decoration: none;
+    color: white;
+}
+
+.linkscategoria{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-dark .navbar-toggler  {
+    border-color:transparent !important;
+}

@@ -1,0 +1,15 @@
+#conteudo {
+    flex-direction: column;
+    
+    display: flex;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+
+
+@media (max-width: 675px) {
+    #conteudo {
+        flex-direction: column;
+    }
+}

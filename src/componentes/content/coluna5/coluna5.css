@@ -1,0 +1,11 @@
+.newcaster {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newcastertextos {
+    text-align: center;
+    color: white;
+}

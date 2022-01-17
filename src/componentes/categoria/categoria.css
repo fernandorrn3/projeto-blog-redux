@@ -1,0 +1,33 @@
+.categoriasesao{
+    display: flex;
+    flex-direction: column;
+}
+
+.contentcategoria{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+.postcategorias{
+    width: 100%;
+   
+}
+
+.corpocard{
+    width: 100%;
+}
+
+.corpocard p {
+    margin-left: 15px;
+}
+
+
+@media (max-width:766px){
+    .corpocardcat{
+        display: flex;
+        flex-direction: column;
+    }
+}

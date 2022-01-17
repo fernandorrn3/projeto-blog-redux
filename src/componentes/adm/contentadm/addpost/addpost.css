@@ -1,0 +1,11 @@
+.addPost{
+display: flex;
+flex-direction: column;
+margin-left: 5%;
+margin-right: 5%;
+}
+
+
+.inputtitulo{
+    padding: 10px;
+}

@@ -3,7 +3,7 @@
   "private": false,
   "version": "0.1.0",
   
-  "homepage": ".",
+  "homepage": "https://fernandorrn3.github.io/projeto-blog-redux/",
   
   "dependencies": {
     "@emotion/react": "^11.7.1",

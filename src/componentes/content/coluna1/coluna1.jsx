@@ -84,7 +84,7 @@ export const Coluna1 = () => {
             }}>
                 <div className='textoetitulocards'>
                  <div>
-                    <h4>{data2[0].titulo.substr(0,20)}</h4>
+                    <h4>{data2[0].titulo.substr(0,20)}...</h4>
                     <p>{data2[0].conteudo.substr(0,30)}</p>
                     </div> 
                  

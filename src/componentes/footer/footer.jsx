@@ -5,7 +5,7 @@ export  const Footer = () =>{
   
  <div className='footer'>
    <p>is simply dummy text of the printing and typesetting industry.</p>
-   <p>is simply dummy text of the printing </p>
+   <p>Footer do blog </p>
 
     </div>
 

@@ -52,7 +52,7 @@ const Cardcategoria = (props) => {
                     <div  className="imgcard" style={{
                         height: '260px',
                         width: '400px',
-                        backgroundImage: `url(${props.image})`,
+                        backgroundImage: `url(${process.env.PUBLIC_URL + '/' + props.image})`,
                         backgroundPosition: 'center',
                         backgroundRepeat: 'no-repeat',
                         backgroundSize: 'cover'

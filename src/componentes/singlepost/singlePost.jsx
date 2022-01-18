@@ -54,7 +54,7 @@ const novaData = filtrar.slice(-5)
       <div className="conteudosinglepost">
         <div className="imgsinglepost">
           <div  ref={imagem} style={{
-            backgroundImage: `url(${post.imagem})`,
+            backgroundImage: `url(${process.env.PUBLIC_URL + '/' +post.imagem})`,
             height:'400px',
             width:'100%',
             backgroundPosition: 'center',

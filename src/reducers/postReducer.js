@@ -10,7 +10,7 @@ const initialState = [
         categoria:'trips',
         data:  '22/12/2021',
         autor:'marcelo',
-        imagem:'/layertrip1.png'
+        imagem:'layertrip1.png'
        
     },
     {
@@ -20,7 +20,7 @@ const initialState = [
         categoria:'tech',
         data: '12/12/2021',
         autor:'fernando',
-        imagem:'/layertech1.png'
+        imagem:'layertech1.png'
     },
     {
         id:2,
@@ -29,7 +29,7 @@ const initialState = [
         categoria:'peoople',
         data: '11/02/2021',
         autor:'juliana',
-        imagem:'/layerpeople1.png'
+        imagem:'layerpeople1.png'
     },
     {
         id:3,
@@ -38,7 +38,7 @@ const initialState = [
         categoria:'nature',
         data: '05/12/2021',
         autor:'manel',
-        imagem:'/layernature1.png'
+        imagem:'layernature1.png'
     },
     {
         id:4,
@@ -47,7 +47,7 @@ const initialState = [
         categoria:'fashion',
         data: '08/12/2021',
         autor:'zeca',
-        imagem:'/layerfashion1.png'
+        imagem:'layerfashion1.png'
     },
     {
         id:5,
@@ -56,7 +56,7 @@ const initialState = [
         categoria:'peoople',
         data: '07/05/2021',
         autor:'jao',
-        imagem:'/layerpeople2.jpg'
+        imagem:'layerpeople2.jpg'
     },
     {
         id:6,
@@ -65,7 +65,7 @@ const initialState = [
         categoria:'trips',
         data: '12/08/2021',
         autor:'fernando',
-        imagem:'/layertrip2.png'
+        imagem:'layertrip2.png'
     },
     {
         id:7,
@@ -74,7 +74,7 @@ const initialState = [
         categoria:'tech',
         data: '11/12/2021',
         autor:'mariana',
-        imagem:'/layerfashion1.png'
+        imagem:'layerfashion1.png'
     },
     {
         id:8,
@@ -83,7 +83,7 @@ const initialState = [
         categoria:'nature',
         data: '10/12/2021',
         autor:'fernando',
-        imagem:'/layernature2.jpg'
+        imagem:'layernature2.jpg'
     },
     {
         id:9,
@@ -92,7 +92,7 @@ const initialState = [
         categoria:'tech',
         data: '11/12/2021',
         autor:'joao',
-        imagem:'/layertech2.png'
+        imagem:'layertech2.png'
     },
     {
         id:10,
@@ -101,7 +101,7 @@ const initialState = [
         categoria:'nature',
         data: '12/12/2021',
         autor:'bruno',
-        imagem:'/layernature3.jpg'
+        imagem:'layernature3.jpg'
     },
     {
         id:11,
@@ -110,7 +110,7 @@ const initialState = [
         categoria:'trips',
         data: '04/12/2021',
         autor:'bruno',
-        imagem:'/layertrip2.png'
+        imagem:'layertrip2.png'
     },
     {
         id:12,
@@ -119,7 +119,7 @@ const initialState = [
         categoria:'trips',
         data: '06/12/2021',
         autor:'bruno',
-        imagem:'/layertrip3.png'
+        imagem:'layertrip3.png'
     },
 
     {
@@ -129,7 +129,7 @@ const initialState = [
         categoria:'animal',
         data:'07/12/2021',
         autor:'bruno viana',
-        imagem:'/layeranimals1.jpg'
+        imagem:'layeranimals1.jpg'
     },
     {
         id:14,
@@ -138,7 +138,7 @@ const initialState = [
         categoria:'animal',
         data:'11/12/2021',
         autor:'jessica lima',
-        imagem:'/layeranimals2.jpg'
+        imagem:'layeranimals2.jpg'
     }
 ]
 

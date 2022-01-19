@@ -26,7 +26,7 @@ console.log(post)
  <Carousel.Item>
  <img
    className="d-block w-100 imgslider"
-   src={`./${item.imagem}`}
+   src={`${ process.env.PUBLIC_URL + '/' + item.imagem}`}
    alt="First slide"
   
    

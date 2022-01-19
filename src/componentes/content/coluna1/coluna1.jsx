@@ -58,7 +58,7 @@ export const Coluna1 = () => {
             <div className='cp22' style={{
                width: '100%',
                minHeight: '360px',
-               backgroundImage: `url(${data2[1].imagem})`, 
+               backgroundImage: "url(" + process.env.PUBLIC_URL  + '/' + data2[1].imagem + ")", 
                backgroundPosition: 'center',
                backgroundRepeat: 'no-repeat',
                backgroundSize: 'cover'
@@ -77,7 +77,7 @@ export const Coluna1 = () => {
            <Link className="link" to={`/post/${data2[0].id}`}> <div className='cp23' style={{
                width: '100%',
                minHeight: '360px',
-               backgroundImage: "url(" + data2[0].imagem + ")",
+               backgroundImage: "url(" + process.env.PUBLIC_URL  + '/' + data2[0].imagem + ")",
                backgroundPosition: 'center',
                backgroundRepeat: 'no-repeat',
                backgroundSize: 'cover'

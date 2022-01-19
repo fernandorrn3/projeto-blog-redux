@@ -32,7 +32,7 @@ export const Coluna2 = () => {
 
     
 
-
+    
     
 
 
@@ -43,7 +43,7 @@ return (
    
        <Link className="link" to={`/post/${newDate[0].id}`}>  <div className='noticia22' style={{
 
-            backgroundImage: "url("+newDate[0].imagem+")",
+            backgroundImage: "url("+ process.env.PUBLIC_URL + '/' + newDate[0].imagem+")",
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover',

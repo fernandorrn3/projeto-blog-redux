@@ -50,7 +50,7 @@ export const Coluna3 = () => {
    <Link className="link" to={`/post/${item.id}`}>  <div className='noticiacol3' style={{
                 width: '100%',
                 minHeight: '255px',
-                backgroundImage: "url(" + item.imagem + ")",
+                backgroundImage: "url("+ process.env.PUBLIC_URL  + '/'  + item.imagem + ")",
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',
                 backgroundSize: 'cover',
@@ -76,7 +76,7 @@ export const Coluna3 = () => {
            <Link className="link" to={`/post/${item.id}`}> <div className='noticiacol3' style={{
                 width: '100%',
                 minHeight: '255px',
-                backgroundImage: "url(" + item.imagem + ")",
+                backgroundImage: "url("+ process.env.PUBLIC_URL  + '/' + item.imagem + ")",
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',
                 backgroundSize: 'cover',

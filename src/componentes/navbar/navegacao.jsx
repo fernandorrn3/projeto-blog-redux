@@ -31,7 +31,7 @@ const filtro2 = ids.filter(function(item,index){
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" >
           <Nav className="ms-auto">
-          <Nav.Link  > <Link to={'/fernando/adm'}>Pagina adm</Link></Nav.Link>
+          
             {filtro2.map(item =>(
            <Nav.Link  > <Link className="linkscategoria" to={`/categoria/${item}`}>{item}</Link></Nav.Link>
             ))}

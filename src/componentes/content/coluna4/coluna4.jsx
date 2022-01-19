@@ -43,7 +43,7 @@ export const Coluna4 = () => {
          <Link className="link" to={`post/${newdata[0].id}`}>   <div className='cp22' style={{
                width: '100%',
                minHeight: '360px',
-               backgroundImage: `url(${newdata[0].imagem})`,
+               backgroundImage:"url(" + process.env.PUBLIC_URL  + '/' + newdata[0].imagem + ")",
                backgroundPosition: 'center',
                backgroundRepeat: 'no-repeat',
                backgroundSize: 'cover'
@@ -65,7 +65,7 @@ export const Coluna4 = () => {
               <Link className="link" to={`post/${newdata[1].id}`}><div className='cp22' style={{
                width: '100%',
                minHeight: '360px',
-               backgroundImage: `url(${newdata[1].imagem})`,
+               backgroundImage:  "url(" + process.env.PUBLIC_URL  + '/' + newdata[1].imagem + ")", 
                backgroundPosition: 'center',
                backgroundRepeat: 'no-repeat',
                backgroundSize: 'cover'

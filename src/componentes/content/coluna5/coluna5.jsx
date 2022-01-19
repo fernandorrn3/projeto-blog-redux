@@ -7,7 +7,7 @@ return(
 <div className='newcaster' style={{
        width:'100%',
        minHeight:'317px',
-       backgroundImage: "url(./Rectangle4.png)",
+       backgroundImage:"url(" + process.env.PUBLIC_URL  + '/Rectangle4.png' + ")",
        backgroundPosition: 'center',
        backgroundRepeat: 'no-repeat',
        backgroundSize: 'cover'

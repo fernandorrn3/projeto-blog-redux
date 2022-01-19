@@ -13,10 +13,11 @@ function App() {
   return (
 
     <div className="App">
+      
        <Routes >
         <Route path="/" element={<Home />} />
         
-        <Route path="/:user/adm" element={<Adm />} >
+        <Route path=":user/adm" element={<Adm />} >
         <Route index element={<Dashboard/>}/>
         <Route path="addpost" element={<Addpost/>}/>
         <Route path="editpost" element={<Editpost/>}/>
@@ -24,6 +25,7 @@ function App() {
         <Route path='/post/:post' element={<Singlepost/>}/>
         <Route path='/categoria/:categoria' element={<Categoria/>}/>
       </Routes>
+     
     </div>
 
   );

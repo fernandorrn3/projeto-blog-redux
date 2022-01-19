@@ -36,11 +36,7 @@ export const Adm = () => {
 
     let params = window.location.pathname
 let result = params.includes('adm')
-    if(!result){
-        return(
-            <div><h1>rota nao existe</h1></div>
-        )
-    }
+   
     return (
         <div className="adm">
 

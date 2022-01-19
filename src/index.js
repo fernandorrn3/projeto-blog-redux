@@ -5,15 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import store from './store';
 import { Provider } from 'react-redux'
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 
 
 ReactDOM.render( 
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
+  <HashRouter hashType='slash' > 
   <Provider store={store}>
     <App />
   </Provider>
-</BrowserRouter>,
+  </HashRouter>,
 
 
     document.getElementById('root')

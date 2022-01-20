@@ -7,7 +7,7 @@ import { Categoria } from './componentes/categoria/categoria';
 import { Editpost } from './componentes/adm/contentadm/editpost/editpost';
 import { Dashboard } from './componentes/adm/contentadm/dashboard/dashboard';
 import { Routes, Route, Link } from "react-router-dom";
-
+import { Testecomponent } from './testecomponents/testecomponents';
 import React from 'react';
 function App() {
   return (
@@ -24,6 +24,7 @@ function App() {
         </Route>
         <Route path='/post/:post' element={<Singlepost/>}/>
         <Route path='/categoria/:categoria' element={<Categoria/>}/>
+        <Route path='/testecomponents' element={<Testecomponent/>}/>
       </Routes>
      
     </div>

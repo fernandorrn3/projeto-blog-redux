@@ -1,8 +1,9 @@
-.coluna1{
+.testecomponent{
     display: flex;
     flex-direction: row;
    
- 
+    margin-left: 15%;
+    margin-right: 15%;
     
     
 }
@@ -10,7 +11,7 @@
 
 
 @media screen and (max-width:960px){
-.coluna1{
+.testecomponent{
     flex-direction: column;
     justify-content: start;
     align-items: center;

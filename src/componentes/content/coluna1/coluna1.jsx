@@ -2,8 +2,8 @@ import React from "react";
 import './coluna1.css';
 import { useSelector, useDispatch } from 'react-redux';
 import { Link } from "react-router-dom";
-import { useEffect } from "react";
-import { useState } from "react";
+import { Cards } from "../../../cards/cards";
+
 
 export const Coluna1 = () => {
    
@@ -51,47 +51,11 @@ export const Coluna1 = () => {
 
    return (
       <div className='coluna1'>
+ {data2.map(item =>(
+    <Cards imagem={item.imagem} usuario={item.autor} data={item.data} conteudo={item.conteudo}/>
+ ))}
 
-         <div className='noticia1'>
-
-         <Link className="link" to={`/post/${data2[1].id}`}>
-            <div className='cp22' style={{
-               width: '100%',
-               minHeight: '360px',
-               backgroundImage: "url(" + process.env.PUBLIC_URL  + '/' + data2[1].imagem + ")", 
-               backgroundPosition: 'center',
-               backgroundRepeat: 'no-repeat',
-               backgroundSize: 'cover'
-            }}>
-               <div className='textoetitulocards'>
-                
-                 <div>
-                 <h4>{data2[1].titulo.substr(0,20)}</h4>
-                    <p>{data2[1].conteudo.substr(0,30)}</p>
-                    </div> 
-               </div>
-            </div></Link>
-            
-         </div>
-         <div className='noticia2'>
-           <Link className="link" to={`/post/${data2[0].id}`}> <div className='cp23' style={{
-               width: '100%',
-               minHeight: '360px',
-               backgroundImage: "url(" + process.env.PUBLIC_URL  + '/' + data2[0].imagem + ")",
-               backgroundPosition: 'center',
-               backgroundRepeat: 'no-repeat',
-               backgroundSize: 'cover'
-            }}>
-                <div className='textoetitulocards'>
-                 <div>
-                    <h4>{data2[0].titulo.substr(0,20)}...</h4>
-                    <p>{data2[0].conteudo.substr(0,30)}</p>
-                    </div> 
-                 
-               </div>
-            </div></Link>
-            
-         </div>
+       
       </div>
    )
 }

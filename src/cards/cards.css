@@ -1,0 +1,32 @@
+.cardscontent{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    background-color: white;
+    -webkit-border-radius: 8px 8px 8px 8px;
+-moz-border-radius: 8px 8px 8px 8px;
+border-radius: 8px 8px 8px 8px;
+background-color: white;
+}
+
+
+
+.cardimg {
+   margin: 5px;
+   
+   height: 100%;
+}
+
+
+.infoscards{
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.conteudocard{
+    margin: 5px;
+}

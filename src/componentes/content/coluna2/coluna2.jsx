@@ -1,6 +1,8 @@
 import React from "react";
 import './coluna2.css'
 import { useSelector, useDispatch } from 'react-redux';
+import { Card2 } from "../../../cards2/card2";
+import { Cards3 } from "../../../cards3/cards3";
 import { Link } from "react-router-dom";
 
 export const Coluna2 = () => {
@@ -27,11 +29,13 @@ export const Coluna2 = () => {
      })
 
      const newDate = filtrar.slice(-3,-2)
+
+     const newDate2 = filtrar.slice(-6,-3)
   
    
 
     
-
+console.log(newDate2)
     
     
 
@@ -41,27 +45,24 @@ return (
     
     <div className='coluna2'>
    
-       <Link className="link" to={`/post/${newDate[0].id}`}>  <div className='noticia22' style={{
 
-            backgroundImage: "url("+ process.env.PUBLIC_URL + '/' + newDate[0].imagem+")",
-            backgroundPosition: 'center',
-            backgroundRepeat: 'no-repeat',
-            backgroundSize: 'cover',
-            width: '100%',
-            minHeight: '380px',
-        }}>
-          <div className='textoetitulocards'>
-                 <div>
-                    <h4>{newDate[0].titulo.substr(0,20)}</h4>
-                    <p>{newDate[0].conteudo.substr(0,30)}</p>
-                    </div> 
-                 
-               </div>
+   <div className="espacocard2">
+       {newDate.map(item => (
+ <Card2 imagem={item.imagem}/>
+       ))}
+ 
+  </div>
 
-            
-        </div></Link>
+<div className="espacocard3">
+{newDate2.map(item => (
+    <Cards3 imagem={item.imagem} conteudo={item.conteudo} categoria={item.categoria} titulo={item.titulo} data={item.data} autor={item.autor} />
+))}
+</div>
+   
+   </div>
+   
         
-    </div>
+ 
 
 
 )

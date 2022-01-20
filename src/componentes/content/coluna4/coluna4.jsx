@@ -36,49 +36,9 @@ export const Coluna4 = () => {
 
 
    return (
-      <div className='coluna1'>
+      <div className='coluna4'>
 
-         <div className='noticia1'>
-
-         <Link className="link" to={`post/${newdata[0].id}`}>   <div className='cp22' style={{
-               width: '100%',
-               minHeight: '360px',
-               backgroundImage:"url(" + process.env.PUBLIC_URL  + '/' + newdata[0].imagem + ")",
-               backgroundPosition: 'center',
-               backgroundRepeat: 'no-repeat',
-               backgroundSize: 'cover'
-            }}>
-               <div className='textoetitulocards'>
-
-                  <div>
-                     <h4>{newdata[0].titulo.substr(0,20)}</h4>
-                     <p>{newdata[0].conteudo.substr(0,30)}</p>
-                  </div>
-               </div>
-            </div></Link>
-
-
-
-            
-         </div>
-         <div className='noticia2'>
-              <Link className="link" to={`post/${newdata[1].id}`}><div className='cp22' style={{
-               width: '100%',
-               minHeight: '360px',
-               backgroundImage:  "url(" + process.env.PUBLIC_URL  + '/' + newdata[1].imagem + ")", 
-               backgroundPosition: 'center',
-               backgroundRepeat: 'no-repeat',
-               backgroundSize: 'cover'
-            }}>
-               <div className='textoetitulocards'>
-
-                  <div>
-                     <h4>{newdata[1].titulo.substr(0,20)}</h4>
-                     <p>{newdata[1].conteudo.substr(0,30)}</p>
-                  </div>
-               </div>
-            </div></Link>
-         </div>
+         
       </div>
    )
 }

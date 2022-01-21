@@ -3,6 +3,7 @@ import { useSelector } from "react-redux";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser } from '@fortawesome/free-solid-svg-icons'
 import { faClock } from '@fortawesome/free-solid-svg-icons'
+import { Link } from "react-router-dom";
 import './cards.css'
 export const Cards = (props)=>{
     const posts = useSelector(state => state.post)
@@ -22,13 +23,16 @@ return(
     <div className="cardscontent">
 
     <div className="cardimg">
+    <Link className="links" to={'/post/'  + props.id}> 
         <img src={`${ process.env.PUBLIC_URL + '/' + props.imagem}`} style={imgStyle}/>
+        </Link>
         </div>
     <div className="infoscards">
         <div><FontAwesomeIcon icon={faUser} /><span>{props.usuario}</span></div>
        <div><FontAwesomeIcon icon={faClock} /><span>{props.data}</span></div> 
         </div>
     <div className="conteudocard"><p>{props.conteudo}</p></div>
+    
     </div>
     
 )

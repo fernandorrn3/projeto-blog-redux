@@ -52,7 +52,7 @@ export const Coluna1 = () => {
    return (
       <div className='coluna1'>
  {data2.map(item =>(
-    <Cards imagem={item.imagem} usuario={item.autor} data={item.data} conteudo={item.conteudo}/>
+    <Cards imagem={item.imagem} usuario={item.autor} data={item.data} conteudo={item.conteudo} id={item.id}/>
  ))}
 
        

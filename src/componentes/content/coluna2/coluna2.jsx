@@ -48,14 +48,15 @@ return (
 
    <div className="espacocard2">
        {newDate.map(item => (
- <Card2 imagem={item.imagem} autor={item.autor} data={item.data} titulo={item.titulo} categoria={item.categoria}/>
+ <Card2 imagem={item.imagem} autor={item.autor} data={item.data} titulo={item.titulo} categoria={item.categoria} id={item.id}/>
        ))}
   
   </div>
 
 <div className="espacocard3">
 {newDate2.map(item => (
-    <Cards3 imagem={item.imagem} conteudo={item.conteudo} categoria={item.categoria} titulo={item.titulo} data={item.data} autor={item.autor} />
+    <Cards3 imagem={item.imagem} conteudo={item.conteudo} categoria={item.categoria}
+     titulo={item.titulo} data={item.data} autor={item.autor} id={item.id}/>
 ))}
 </div>
    

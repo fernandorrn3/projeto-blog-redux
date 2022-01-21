@@ -3,6 +3,7 @@ import './cards3.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser } from '@fortawesome/free-solid-svg-icons'
 import { faClock } from '@fortawesome/free-solid-svg-icons'
+import { Link } from "react-router-dom";
 
 
 export const Cards3 = (props) => {
@@ -21,7 +22,9 @@ export const Cards3 = (props) => {
     return (
         <div className="contentcard3">
             <div className="imgcard3">
-                <img src={`${process.env.PUBLIC_URL + '/' + props.imagem}`} style={imgStyle} />
+            <Link className="links" to={'/post/'  + props.id}> 
+            <img src={`${process.env.PUBLIC_URL + '/' + props.imagem}`} style={imgStyle} />
+            </Link>
             </div>
             <div className="conteudocard3">
 

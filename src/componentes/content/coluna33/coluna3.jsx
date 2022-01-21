@@ -55,7 +55,7 @@ export const Coluna3 = () => {
     const coluna2 = newdate2.map(item => (
         <div  className="columnnoticia3">
 
-<Cards imagem={item.imagem} usuario={item.autor} data={item.data} conteudo={item.conteudo}/>
+<Cards imagem={item.imagem} usuario={item.autor} data={item.data} conteudo={item.conteudo} id={item.id}/>
 
         </div>
     ))

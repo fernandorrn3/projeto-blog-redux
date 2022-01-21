@@ -20,7 +20,7 @@ const initialState = [
         categoria:'tech',
         data: '12/12/2021',
         autor:'fernando',
-        imagem:'layertech1.png'
+        imagem:'tecnologia33.jpg'
     },
     {
         id:2,

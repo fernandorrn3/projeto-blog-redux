@@ -167,7 +167,7 @@ const Listaposts = (props) => {
 
                     <div className="grupobotaoeditar">
                         <div className="grupoeditardelete" >
-                            <a href="#" onClick={removerpost}>
+                            <a onClick={removerpost}>
                                 <FontAwesomeIcon className="delete" size="1x" icon={faTrashAlt}></FontAwesomeIcon>
                                 Delete
                             </a>
@@ -176,7 +176,7 @@ const Listaposts = (props) => {
 
 
                         <div className="grupoeditardelete" >
-                            <a href="#" onClick={abriredit}>
+                            <a onClick={abriredit}>
                                 <FontAwesomeIcon className="editar" size="1x" icon={faEdit}></FontAwesomeIcon>
                                 Editar
                             </a>

@@ -3,6 +3,7 @@ import './coluna3.css'
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
+import { Cards } from "../../../cards/cards";
 export const Coluna3 = () => {
     const dispatch = useDispatch()
 
@@ -46,26 +47,7 @@ export const Coluna3 = () => {
 
     const coluna1 = newdate1.map(item => (
        <div className="columnnoticia3">
-
-   <Link className="link" to={`/post/${item.id}`}>  <div className='noticiacol3' style={{
-                width: '100%',
-                minHeight: '255px',
-                backgroundImage: "url("+ process.env.PUBLIC_URL  + '/'  + item.imagem + ")",
-                backgroundPosition: 'center',
-                backgroundRepeat: 'no-repeat',
-                backgroundSize: 'cover',
-                display: 'flex',
-                flexDirection: 'column',
-                justifyContent: 'end'
-            }}>
-                <div className='textoetitulocards'>
-
-                    <div>
-                        <h4>{item.titulo.substr(0,20)}</h4>
-                        <p>{item.conteudo.substr(0,30)}</p>
-                    </div>
-                </div>
-            </div></Link>
+<Cards imagem={item.imagem} usuario={item.autor} data={item.data} conteudo={item.conteudo}/>
 
         </div>
     ))
@@ -73,25 +55,7 @@ export const Coluna3 = () => {
     const coluna2 = newdate2.map(item => (
         <div  className="columnnoticia3">
 
-           <Link className="link" to={`/post/${item.id}`}> <div className='noticiacol3' style={{
-                width: '100%',
-                minHeight: '255px',
-                backgroundImage: "url("+ process.env.PUBLIC_URL  + '/' + item.imagem + ")",
-                backgroundPosition: 'center',
-                backgroundRepeat: 'no-repeat',
-                backgroundSize: 'cover',
-                display:'flex',
-                flexDirection:'column',
-                justifyContent:'end'
-            }}>
-                <div className='textoetitulocards'>
-
-                    <div>
-                        <h4>{item.titulo.substr(0,20)}</h4>
-                        <p>{item.conteudo.substr(0,30)}</p>
-                    </div>
-                </div>
-            </div></Link> 
+<Cards imagem={item.imagem} usuario={item.autor} data={item.data} conteudo={item.conteudo}/>
 
         </div>
     ))

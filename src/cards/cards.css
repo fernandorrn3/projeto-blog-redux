@@ -27,6 +27,12 @@ background-color: white;
     justify-content: space-between;
 }
 
+
+.infoscards span{
+    margin-left: 10px;
+}
+
 .conteudocard{
     margin: 5px;
 }
+

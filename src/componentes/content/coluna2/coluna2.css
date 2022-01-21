@@ -12,25 +12,26 @@
 
 .espacocard2{
    width: 100%;
-    
+  display: flex;
+  margin-right: 5px;
 }
 
 
 .espacocard3{
-    
+    margin-left: 5px;
    width: 100%;
     display: flex;
     flex-direction: column;
+  
 }
 
-@media screen and (max-width:960px){
-.coluna2{
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-}
-.espacocard3{
-    
-}
-}
 
+
+
+@media screen and (min-width:768px) and (max-width:1023px){
+    .coluna2{
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+}

@@ -1,9 +1,75 @@
 .cards2{
-    height: 100%;
+    margin-top: 15px;
+    
 }
 .contentimgcard2{
     
     height: 100%;
-  
+    display: inline-flex;
+    position: relative;
 
 }
+
+.noticiaimagembaixo{
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: larger;
+    
+    
+}
+
+
+
+.noticiaimagemcima{
+    font-size:larger;
+    position: absolute;
+    top: 0;
+    padding: 10px;
+    color: white;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.noticiaimagembaixo span {
+    background-color: aqua;
+    padding: 5px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    margin: 5px;
+   
+}
+
+.noticiaimagembaixo h2{
+   
+   margin: 5px;
+}
+
+.noticiaimagemcima{
+    font-size:larger;
+    position: absolute;
+    top: 0;
+    padding: 10px;
+    color: white;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+
+@media screen and (max-width:1023px){
+   
+    .espacocard2{
+        display: none;
+    }
+
+}
+
+

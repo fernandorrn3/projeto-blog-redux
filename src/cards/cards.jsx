@@ -10,7 +10,8 @@ export const Cards = (props)=>{
 
     const imgStyle = {
         width:'100%',
-        height:'100%'
+        height:'100%',
+        objectFit: 'cover'
         
        
     }

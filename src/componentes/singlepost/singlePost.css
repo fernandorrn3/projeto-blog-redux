@@ -10,27 +10,29 @@
    
    margin-left: 5%;
    margin-right: 5%;
+   display: flex;
+   flex-direction: row;
 }
 
 .imgsinglepost{
    display: flex;
    flex-direction: row;
    justify-content: center;
-   margin-top: 20px;
+  
    
 }
 
 .corposinglepost{
    display: flex;
-   flex-direction: row;
+   flex-direction: column;
    margin-top: 20px;
- 
-   margin-left: 7%;
-   margin-right: 7%;
+   width: 70%;
+   margin-left: 4%;
+   margin-right: 4%;
 }
 
 .conteudo{
-width: 70%;
+
 
 margin-right: 10px;
 display: flex;
@@ -41,7 +43,8 @@ flex-direction: column;
 .barra{
 background-color:rgb(236, 227, 227);
 width: 30%;
-margin-left: 10px;
+
+margin-top: 20px;
 }
 
 .elementosbarrasingle{
@@ -68,6 +71,9 @@ margin-left: 10px;
    .corposinglepost{
       display: flex;
       flex-direction: column;
+      width: 100%;
+      
+      margin-left: 0px;
    }
 
    .conteudo{

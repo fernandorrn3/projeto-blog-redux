@@ -28,8 +28,8 @@ return(
         </Link>
         </div>
     <div className="infoscards">
-        <div><FontAwesomeIcon icon={faUser} /><span>{props.usuario}</span></div>
-       <div><FontAwesomeIcon icon={faClock} /><span>{props.data}</span></div> 
+        <div className="infocarduser"><FontAwesomeIcon icon={faUser} /><span>{props.usuario}</span></div>
+       <div className="infocarddata"><FontAwesomeIcon icon={faClock} /><span>{props.data}</span></div> 
         </div>
     <div className="conteudocard"><p>{props.conteudo}</p></div>
     

@@ -9,12 +9,13 @@
 -moz-border-radius: 8px 8px 8px 8px;
 border-radius: 8px 8px 8px 8px;
 background-color: white;
+margin: 10px;
 }
 
 
 
 .cardimg {
-   margin: 5px;
+ 
    
    height: 100%;
 }
@@ -28,11 +29,19 @@ background-color: white;
 }
 
 
+.infocarduser{
+    margin-left: 10px;
+}
+
+.infocarddata{
+    margin-right: 10px;
+}
+
 .infoscards span{
     margin-left: 10px;
 }
 
 .conteudocard{
-    margin: 5px;
+    margin-left: 10px;
 }
 

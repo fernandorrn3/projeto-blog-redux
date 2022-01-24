@@ -144,6 +144,8 @@ const Listaposts = (props) => {
         console.log(selecionar)
     }
 
+    
+
     return (
         <div className={'editpost'}>
 
@@ -163,11 +165,11 @@ const Listaposts = (props) => {
 
                     <div className="date"><h4>Data</h4>{props.data}</div>
 
-                    <div className="image"><h4>imagem</h4><div className="imgedit"><img src={props.imagem} /></div></div>
+                    <div className="image"><h4>imagem</h4><div className="imgedit"><img src={process.env.PUBLIC_URL + '/'+ props.imagem} /></div></div>
 
                     <div className="grupobotaoeditar">
                         <div className="grupoeditardelete" >
-                            <a onClick={removerpost}>
+                            <a  onClick={removerpost}>
                                 <FontAwesomeIcon className="delete" size="1x" icon={faTrashAlt}></FontAwesomeIcon>
                                 Delete
                             </a>
@@ -176,7 +178,7 @@ const Listaposts = (props) => {
 
 
                         <div className="grupoeditardelete" >
-                            <a onClick={abriredit}>
+                            <a  onClick={abriredit}>
                                 <FontAwesomeIcon className="editar" size="1x" icon={faEdit}></FontAwesomeIcon>
                                 Editar
                             </a>

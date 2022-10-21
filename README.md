@@ -1,3 +1,10 @@
+<div>
+<h1>rotas</h1>
+<p>user/adm</p>
+<p>user/adm/addpost</p>
+<p>user/adm/editpost</p>
+</div>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

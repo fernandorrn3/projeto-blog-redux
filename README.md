@@ -1,8 +1,6 @@
 <div>
-<h1>rotas</h1>
-<p>user/adm</p>
-<p>user/adm/addpost</p>
-<p>user/adm/editpost</p>
+<h1>rota painel</h1>
+https://fernandorrn3.github.io/projeto-blog-redux/?#/usuario/adm
 </div>
 
 # Getting Started with Create React App
